@@ -21,7 +21,7 @@ label lpst
   r(i,1)=p(i%6,1)
  next
  wait 1
- for i=0 to 5
+ for i=0 to 6
   for j=0 to 2
    p(i,j)=p(i,j)+m(i,j)
    if p(i,j)=0 or p(i,j)=200 then 
