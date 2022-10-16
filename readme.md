@@ -11,7 +11,7 @@
  [cntdown.bas](https://github.com/Layer812/machikania/blob/main/cntdown.bas):言語仕様を見ていてI2Cが使えるとのことで、確認用に作成。<br>
  以前作成したMicroPython版の[vgmpico.py](https://github.com/Layer812/vgmpico)を移植しました。細かい使い方などはvgmpicoを参照の事。<br>
  [とよしまさんのSCC(LPC810)](https://qiita.com/toyoshim/items/8590bbc2d456cbafacdd)を繋げるHATの回路図を以下に置きます。<br>
- 出力側のLPFは好みの容量の抵抗とコンデンサをお使いください。<br>
+ 出力側のLPFは好みの容量の抵抗とコンデンサをお使いください。LPC810に繋がるプルアップ抵抗は2-10KΩの適当なもので良いです。<br>
  ![接続図](https://user-images.githubusercontent.com/111331376/196030208-bcee35cb-5ea3-4495-b43b-58ff1449a0a7.png)
 ## おやくそく
  - 本サンプル等の利用により発生する損害や不都合を補償しません。
