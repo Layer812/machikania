@@ -14,6 +14,8 @@
  出力側のLPFは好みの容量の抵抗とコンデンサをお使いください。LPC810に繋がるプルアップ抵抗は2-10KΩの適当なもので良いです。<br>
  ![接続図](https://user-images.githubusercontent.com/111331376/196030208-bcee35cb-5ea3-4495-b43b-58ff1449a0a7.png)
  音が小さいのでスピーカーの前に[秋月さんの2Wアンプ](https://akizukidenshi.com/catalog/g/gK-08217/)を繋ぐと良いです。<br>
+ 曲データは[ぱるぷさん](https://twitter.com/layer812/status/1579369608221687809)製作のMorning Musicを使わせていただいています。<br>
+ MSXPLAYでエクスポートしたvgmファイルを「morning2.vgm」としてcntdown.basと同じフォルダに保存します。<br>
 ## おやくそく
  - 本サンプル等の利用により発生する損害や不都合を補償しません。
  - [Apache License v2.0](http://www.apache.org/licenses/LICENSE-2.0)に基づいてご利用ください。ご連絡は[layer8](https://twitter.com/layer812)までお願いします。
