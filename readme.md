@@ -15,7 +15,7 @@
 ### Line.bas
  [Line.bas](https://github.com/Layer812/machikania/blob/main/line.BAS):昔懐かしい雰囲気のスクリーンセーバです。<br>
 ### cntdown.bas
- [cntdown.bas](https://github.com/Layer812/machikania/blob/main/cntdown.bas):言語仕様を見ていてI2Cが使えるとのことで、確認用に作成。<br>
+ [cntdown.bas](https://github.com/Layer812/machikania/blob/main/cntdown.bas):言語仕様を見ていてI2Cが使えるとのことで、確認用に作成。[こんな感じ](https://twitter.com/layer812/status/1581504899493175302)で動きます。<br>
  以前作成したMicroPython版の[vgmpico.py](https://github.com/Layer812/vgmpico)を移植しました。細かい使い方などはvgmpicoを参照の事。<br>
  [とよしまさんのSCC(LPC810)](https://qiita.com/toyoshim/items/8590bbc2d456cbafacdd)を繋げるHATの回路図を以下に置きます。<br>
  出力側のLPFは好みの容量の抵抗とコンデンサをお使いください。LPC810に繋がるプルアップ抵抗は2-10KΩの適当なもので良いです。<br>
