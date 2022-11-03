@@ -5,13 +5,25 @@
 [言語の解説](http://www.ze.em-net.ne.jp/~kenken/machikania/machikania-guide.pdf)も非常に分かりやすいので、簡単ブレッドボード工作のお供に最適です。<br>
 お手軽キットのMachikania Type Pは[Picoソフトさん](https://store.shopping.yahoo.co.jp/orangepicoshop/pico-k-056.html?sc_i=shp_pc_search_itemlist_shsrg_img)で、時々販売中。<br>
 ## サンプルコード
-### Startrip.bas (v0.2) - 作り中
- [Startrip.bas](https://github.com/Layer812/machikania/blob/main/STARTRIP.BAS)古のゲームのパ...オマージュです、画面は[こんな感じ](https://twitter.com/layer812/status/1584224494096306177)です。以下Todo。<br>
- - ジェット燃料 (今だけ加速し放題)
- - 恒星、重力
- - 公転(スイングバイしたい)
+### Startrip.bas (v0.3) 
+ [Startrip.bas](https://github.com/Layer812/machikania/blob/main/STARTRIP.BAS)古のゲームのパ...オマージュです、画面は[こんな感じ](https://twitter.com/layer812/status/1588184667718492160)です。v0.2からの変更点は以下です。<br>
+ - ジェット燃料 
+ - 恒星、重力(?)
  - 当り判定
  - クリア条件
+#### 操作
+ - 左右で機体が回転します。
+ - 上ボタンで加速します。
+ - STARTボタンでミサイルが打てます。
+ - FIREボタンで機体の破壊指令が出せます。
+#### クリア条件など
+ - スタート直後に恒星の重力(?)から離脱する加速が必要です。
+ - 加速に使うジェット燃料は面ごとに有限です。
+ - 画面上の「+」マークが機雷です、ミサイルですべて破壊すると次の面に進みます。
+ - 画面中心の「*」マークは重力(?)を持つ恒星です。破壊できません。
+ - 機体が恒星か機雷に接触するとミッション失敗です。
+ - 全６面でゲームクリアです。
+
 ### Line.bas
  [Line.bas](https://github.com/Layer812/machikania/blob/main/line.BAS):昔懐かしい雰囲気のスクリーンセーバです。<br>
 ### cntdown.bas
