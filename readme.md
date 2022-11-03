@@ -23,7 +23,7 @@
  - 画面中心の「*」マークは重力(?)を持つ恒星です。破壊できません。
  - 機体が恒星か機雷に接触するとミッション失敗です。
  - 全６面でゲームクリアです。
-
+![動作画面](https://user-images.githubusercontent.com/111331376/199758119-adeb1b31-156e-4536-b11f-70f8fca8e415.png)
 ### Line.bas
  [Line.bas](https://github.com/Layer812/machikania/blob/main/line.BAS):昔懐かしい雰囲気のスクリーンセーバです。<br>
 ### cntdown.bas
