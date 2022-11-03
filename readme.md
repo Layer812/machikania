@@ -6,7 +6,7 @@
 お手軽キットのMachikania Type Pは[Picoソフトさん](https://store.shopping.yahoo.co.jp/orangepicoshop/pico-k-056.html?sc_i=shp_pc_search_itemlist_shsrg_img)で、時々販売中。<br>
 ## サンプルコード
 ### Startrip.bas (v0.3) 
- [Startrip.bas](https://github.com/Layer812/machikania/blob/main/STARTRIP.BAS)古のゲームのパ...オマージュです、画面は[こんな感じ](https://twitter.com/layer812/status/1588184667718492160)です。v0.2からの変更点は以下です。<br>
+ [Startrip.bas](https://github.com/Layer812/machikania/blob/main/STARTRIP.BAS)古の[ゲーム](https://www.youtube.com/watch?v=1EWQYAfuMYw)のパ...オマージュです、画面は[こんな感じ](https://twitter.com/layer812/status/1588184667718492160)です。v0.2からの変更点は以下です。<br>
  - ジェット燃料 
  - 恒星、重力(?)
  - 当り判定
