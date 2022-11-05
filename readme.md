@@ -24,6 +24,9 @@
  - 機体が恒星か機雷に接触するとミッション失敗です。
  - 全６面でゲームクリアです。
 ![動作画面](https://user-images.githubusercontent.com/111331376/199758119-adeb1b31-156e-4536-b11f-70f8fca8e415.png)
+### STARFLD.BAS
+ [STARFLD.BAS](https://github.com/Layer812/machikania/blob/main/STARFLD.BAS):良くある宇宙飛行です。<br>
+ 上キーで加速、下キーで減速です。動作イメージは[こんな](https://twitter.com/layer812/status/1588938695348215810)感じ。<br>
 ### Line.bas
  [Line.bas](https://github.com/Layer812/machikania/blob/main/line.BAS):昔懐かしい雰囲気のスクリーンセーバです。<br>
 ### cntdown.bas
