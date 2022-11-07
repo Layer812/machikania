@@ -25,6 +25,7 @@
   - サンプル曲(el condr pasa?)は、Layer8の記憶コピーで作ったものなので、サンプルです。
 ![image](https://user-images.githubusercontent.com/111331376/200308508-9d537191-dbe7-4231-bec4-92d6448cb290.png)<br>
 <br>
+
 ### Startrip.bas (v0.3) 
  [Startrip.bas](https://github.com/Layer812/machikania/blob/main/STARTRIP.BAS)古の[ゲーム](https://www.youtube.com/watch?v=1EWQYAfuMYw)のパ...オマージュです、画面は[こんな感じ](https://twitter.com/layer812/status/1588184667718492160)です。v0.2からの変更点は以下です。<br>
  - ジェット燃料 
@@ -61,4 +62,3 @@
 ## おやくそく
  - 本サンプル等の利用により発生する損害や不都合を補償しません。
  - [Apache License v2.0](http://www.apache.org/licenses/LICENSE-2.0)に基づいてご利用ください。ご連絡は[layer8](https://twitter.com/layer812)までお願いします。
-
