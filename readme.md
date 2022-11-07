@@ -5,6 +5,24 @@
 [言語の解説](http://www.ze.em-net.ne.jp/~kenken/machikania/machikania-guide.pdf)も非常に分かりやすいので、簡単ブレッドボード工作のお供に最適です。<br>
 お手軽キットのMachikania Type Pは[Picoソフトさん](https://store.shopping.yahoo.co.jp/orangepicoshop/pico-k-056.html?sc_i=shp_pc_search_itemlist_shsrg_img)で、時々販売中。<br>
 ## サンプルコード
+### otamapl.bas
+ [otamapl.bas](https://github.com/Layer812/machikania/blob/main/otamapl.BAS)明和電機さんの光操作テルミン[OTAMAMIN](https://www.maywadenki.com/news/otamamin/)を自動演奏します。<BR>
+ 動作風景はこんな感じです。音感に影響がない範囲でご利用ください。<BR>
+ ![破壊するよ!](https://user-images.githubusercontent.com/111331376/200283830-56070417-8053-4be6-9236-6649d5ca8eee.jpg)<br>
+ #### 操作方法
+  -「tune OTAMAMIN as A then HIT START」が表示されている間に白色LEDをOTAMAMINのセンサ(お尻)に刺してください。
+  - A3(ラ)の音が鳴るように位置を調整してください。  
+  - スタートボタンを押すと再生が始まります。
+ #### 作成方法
+ 以下のような感じで、白色LEDのGNDを物理3ピン(GND)にLEDのGNDを、プラス側を物理4ピン(GPIO 2)に(抵抗経由で)接続します。<br>
+ ![otama](https://user-images.githubusercontent.com/111331376/200287642-ffef10cc-ed40-490c-ac5f-295ea6c707a9.png)
+ #### 音楽データの変更
+  - otamamin.basの最終行、DATAを編集することで再生する音楽を変更できます。
+  - 音データとして1～23までの数字を指定します。0でデータ終了です。
+  - 音データの1がシ(B3:246Hz付近)で半音含めて23のラ(A5:880Hz付近)まで指定できます。11がラ(A4:440Hz付近)になりますが、厳密ではありません。
+  - 休符データとして71以上の数字が指定できます。71から1増えるごとに0.5秒づつ待つようになります。
+  - 1音の再生に0.5秒かけています。
+  - サンプル曲(el condr pasa?)は、Layer8の記憶コピーで作ったものなので、サンプルです。
 ### Startrip.bas (v0.3) 
  [Startrip.bas](https://github.com/Layer812/machikania/blob/main/STARTRIP.BAS)古の[ゲーム](https://www.youtube.com/watch?v=1EWQYAfuMYw)のパ...オマージュです、画面は[こんな感じ](https://twitter.com/layer812/status/1588184667718492160)です。v0.2からの変更点は以下です。<br>
  - ジェット燃料 
