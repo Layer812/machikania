@@ -7,7 +7,7 @@
 ## サンプルコード
 ### otamapl.bas
  [otamapl.bas](https://github.com/Layer812/machikania/blob/main/otamapl.BAS)明和電機さんの光操作テルミン[OTAMAMIN](https://www.maywadenki.com/news/otamamin/)を自動演奏します。<BR>
- 動作風景はこんな感じです。音感に影響がない範囲でご利用ください。<BR>
+ 動作風景は[こんな感じ](https://twitter.com/layer812/status/1589570674552889346)です。音感に影響がない範囲でご利用ください。<BR>
  ![破壊するよ!](https://user-images.githubusercontent.com/111331376/200283830-56070417-8053-4be6-9236-6649d5ca8eee.jpg)<br>
  #### 操作方法
   -「tune OTAMAMIN as A then HIT START」が表示されている間に白色LEDをOTAMAMINのセンサ(お尻)に刺してください。
